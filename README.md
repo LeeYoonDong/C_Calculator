@@ -45,6 +45,7 @@ gcc -o calculator main.c -lm
 ```
 <br/>
 <br/>
+
 # C Programming Calculator Project
 
 This project is a multifunctional calculator implemented in language C. It contains features specialized in engineering computation as well as general computation.

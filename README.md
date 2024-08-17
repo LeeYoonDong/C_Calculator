@@ -43,7 +43,58 @@
 gcc -o calculator main.c -lm
 ./calculator
 ```
+<br/>
+<br/>
+# C Programming Calculator Project
 
+This project is a multifunctional calculator implemented in language C. It contains features specialized in engineering computation as well as general computation.
+
+## function
+
+1. a general calculator
+   - Basic operations (adding, subtraction, multiplication, division)
+   - root calculation
+   - Percentage calculation
+
+2. an engineering calculator
+   - trigonometric functions (sin, cos, tan)
+   - Reverse trigonometric functions (arcsin, arcos, arctan)
+   - Hyperbolic functions (sinh, cosh, tanh)
+   - Log function (ln, log)
+   - Index and Power
+   - absolute value
+   - Factorial
+   - Pi (π) calculation
+   - base conversion (binary, octal, hexadecimal)
+   - Bit operation (AND, OR, XOR, left shift)
+   - Pythagorean theorem
+
+3. a hexadecimal calculator
+   - hexadecimal addition, subtraction, multiplication, division
+
+4. an octal calculator
+   - octal addition, subtraction, multiplication, division
+
+## How to use it
+
+1. Run the program.
+2. Select the desired calculator mode from the main menu.
+3. Enter numbers and operations according to the mode selected.
+4. Check the results.
+5. You can continue to calculate or switch to another mode.
+6. To exit, type '0' in the main menu.
+
+## Compile and run
+
+```
+gcc -o calculator main.c -lm
+./calculator
+```
+
+## Precautions
+
+- Only numbers in the specified range must be entered when entering.
+- In case of incorrect input, an "Input Error" message is displayed and a re-input is requested.
 ## 주의사항
 
 - 입력 시 지정된 범위의 숫자만 입력해야 합니다.
